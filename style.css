@@ -5,6 +5,7 @@
     padding: 0px 0px;
     background-color: white;
     margin: 0px 0px 0px 0px 0px;
+    flex-wrap: wrap;
 }
 h2{
     display: inline;
@@ -89,6 +90,16 @@ img{
     margin: 80px 0px 0px 50px;
     padding: 0px 0px 0px 0px;
     background-color: rgb(214, 43, 100);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; */
+        float: left;
+        background-color: rgb(214, 43, 100);
+        padding: 20px;
+        width: 400px;
+        margin-right: 10px;
+        flex-wrap: wrap;
+  
 }
 .image{
     margin: 0px;
