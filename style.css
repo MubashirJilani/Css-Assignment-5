@@ -1,5 +1,5 @@
 .parent {
-    display: inline;
+    display: flex;
     justify-content: center;
     gap: 300px;
     /* align-items: center; */
