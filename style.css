@@ -6,7 +6,9 @@
     background-color: white;
     margin: 0px 0px 0px 0px 0px;
     flex-wrap: wrap;
-    position: sticky;
+    position: relative;
+    position: fixed;
+    
 }
 
 h2 {
@@ -77,10 +79,10 @@ li {
     width: 400px;
     height: 500px;
     box-shadow: 5px 5px 5px black;
-    margin: 50px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: rgb(214, 43, 100);
-
+    align-items: center;
     float: left;
     background-color: rgb(214, 43, 100);
     padding: 20px;
@@ -89,12 +91,16 @@ li {
     width: 400px;
     margin-right: 10px;
     flex-wrap: wrap;
-
+    justify-content: center;
 }
+
 
 .image {
     margin: 0px;
     padding: auto;
+    
+    
+    
 }
 
 p,
@@ -137,10 +143,10 @@ p {
     color: white;
 }
 
-.container {
+/* .container {
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 
 .noman {
     margin: 0px 0px 0px 0px;
